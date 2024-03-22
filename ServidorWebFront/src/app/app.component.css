@@ -27,9 +27,9 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #343a40; /* Color de fondo */
-  color: #fff; /* Color del texto */
-  padding: 10px 0; /* Espaciado interno */
+  background-color: #343a40;
+  color: #fff;
+  padding: 10px 0;
 }
 
 .footer .container {
@@ -37,6 +37,6 @@
 }
 
 .footer .text-muted {
-  margin: 0; /* Eliminar margen */
+  margin: 0;
 }
 
