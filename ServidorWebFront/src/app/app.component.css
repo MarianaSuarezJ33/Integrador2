@@ -1,0 +1,42 @@
+/* Estilos para el formulario */
+.sign-container {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.brand {
+  color: #0050bff;
+}
+
+.brand.orange {
+  color: #ff6600;
+}
+
+.input-label {
+  border-radius: 5px;
+}
+
+
+.signin-border {
+  border-bottom: 2px solid #dee2e6;
+}
+
+/* Estilos para el footer */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  padding: 10px 0; /* Espaciado interno */
+}
+
+.footer .container {
+  width: 100%;
+}
+
+.footer .text-muted {
+  margin: 0; /* Eliminar margen */
+}
+
