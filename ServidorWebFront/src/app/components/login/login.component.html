@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Ingreso</title>
+    <link rel="stylesheet" href="login.component.css" />
+  </head>
+  <body>
+    <section class="container-fluid">
+      <div class="row vh-100 justify-content-center align-items-center">
+        <div class="col-md-4 col-6">
+          <div class="px-4 sign-container">
+            <div class="text-center mt-5">
+              <img
+                src="../assets/android-chrome-192x192.png"
+                alt="logo"
+                style="width: 150px"
+              />
+              <h2 class="fw-bold brand fs-1 my-4">Ingresar</h2>
+              <div class="mb-2 mx-auto signin-border"></div>
+              <div class="position-relative my-4">
+                <div class="input-label px-2 bg-white d-flex">
+                  <label for="email" class="control-label"
+                    >Correo Electrónico</label
+                  >
+                </div>
+                <input
+                  class="form-control inputbox shadow-none p-2"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder=""
+                />
+              </div>
+              <div class="position-relative my-5">
+                <div
+                  class="input-label px-2 bg-white d-flex justify-content-between"
+                >
+                  <label for="password" class="control-label">Contraseña</label>
+                  <span
+                    ><a href="#" class="text-decoration-none"
+                      >¿Olvidaste tu contraseña?</a
+                    ></span
+                  >
+                </div>
+                <input
+                  class="form-control inputbox shadow-none p-2"
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder=""
+                />
+              </div>
+
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="button">Ingresar</button>
+              </div>
+              <div class="p-3 mt-3">
+                <a class="text-decoration-none text-reset" href="#"> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer mt-auto py-3 bg-light text-center">
+      <div class="container">
+        <span class="text-muted"
+          >Universidad de Manizales - Maestria en Educación</span
+        >
+      </div>
+    </footer>
+  </body>
+</html>
