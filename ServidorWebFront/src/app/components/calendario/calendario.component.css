@@ -1,0 +1,11 @@
+/* Estilo de fondo para el contenedor */
+.container {
+  background-color: lightblue;
+  padding: 20px;
+}
+
+/* Estilo para el texto dentro del contenedor */
+.container p {
+  color: rgb(65, 20, 20);
+  font-size: 18px;
+}
