@@ -1,0 +1,133 @@
+
+.inicio-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 2200px;
+  margin: 0 auto;
+}
+
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 2%;
+  margin-right: 5px;
+}
+
+.logo img:nth-child(2) {
+  max-width: 100px;
+  margin-right: 10px;
+}
+
+.user-info {
+  text-align: right;
+  margin-top: 29px;
+}
+
+.user-info p {
+  font-size: 15px;
+  color: #333;
+  margin: 0;
+}
+.logo p {
+  font-size: 18px;
+  color: #333;
+  margin-top: -50px;
+  margin-left: 750px;
+}
+
+
+button {
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #e09028, #e09b06);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* Estilos para la barra de navegación horizontal */
+.navbar-horizontal {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 5px;
+  max-width: 1900px;
+  height: 55px;
+  margin: 0px;
+}
+
+.menu-horizontal {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.menu-horizontal li {
+  margin-right: 15px;
+}
+
+
+.menu-horizontal a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilos al pasar el ratón por encima */
+.menu-horizontal a:hover {
+  background-color: #e9ecef;
+}
+
+/* Estilos para el elemento activo */
+.menu-horizontal a.active {
+  color: #f60;
+  background-color: #fff;
+}
+
+/* Estilos para el menú desplegable vertical */
+.submenu-items {
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.submenu-items li {
+  margin-bottom: 5px;
+}
+
+.submenu-items a {
+  color: #333;
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+  transition: all 0.3s ease; /* Transición suave al cambiar los estilos */
+}
+
+.submenu-items a:hover {
+  background-color: #e9ecef;
+}
+
+.submenu-items a.active {
+  color: #f60; /* Color naranja para el elemento activo */
+  background-color: #fff; /* Cambia el fondo al seleccionar un elemento */
+}
